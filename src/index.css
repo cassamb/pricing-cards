@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+body {
+    @apply min-h-screen flex justify-center items-center py-14 bg-gray-900 text-gray-50;
+}
+
+@theme {
+    /* Creating a global varaible for the primary color so theme can be changed easily */
+    --color-primary: oklch(84.5% 0.143 164.978); /* emerald-400
+
+    /* Overwriting the default animate-pulse class */
+    --animate-pulse: pulse 2s infinite;
+
+    @keyframes pulse {
+        0% {
+            box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.7);
+        }
+
+        70% {
+            box-shadow: 0 0 0 10px rgba(74, 222, 128, 0);
+        }
+
+        100% {
+            box-shadow: 0 0 0 0 rgba(74, 222, 128, 0);
+        }
+    }
+}

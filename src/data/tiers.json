@@ -1,0 +1,121 @@
+[
+    {
+        "id": 1,
+        "name": "Basic",
+        "description": "Perfect for individuals and small projects",
+        "price": 9,
+        "icon": "FaRocket",
+        "popular": false,
+        "features": [
+            {
+                "id": 1,
+                "description": "5 Projects",
+                "available": true
+            },
+            {
+                "id": 2,
+                "description": "20GB Storage",
+                "available": true
+            },
+            {
+                "id": 3,
+                "description": "Basic Support",
+                "available": true
+            },
+            {
+                "id": 4,
+                "description": "Email Notifications",
+                "available": true
+            },
+            {
+                "id": 5,
+                "description": "Advanced Analytics",
+                "available": false
+            },
+            {
+                "id": 6,
+                "description": "Custom Domain",
+                "available": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Pro",
+        "description": "Great for growing businesses and teams",
+        "price": 29,
+        "icon": "FaGem",
+        "popular": true,
+        "features": [
+            {
+                "id": 1,
+                "description": "5 Projects",
+                "available": true
+            },
+            {
+                "id": 2,
+                "description": "20GB Storage",
+                "available": true
+            },
+            {
+                "id": 3,
+                "description": "Basic Support",
+                "available": true
+            },
+            {
+                "id": 4,
+                "description": "Email Notifications",
+                "available": true
+            },
+            {
+                "id": 5,
+                "description": "Advanced Analytics",
+                "available": true
+            },
+            {
+                "id": 6,
+                "description": "Custom Domain",
+                "available": false
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Enterprise",
+        "description": "For large companies and organizations",
+        "price": 79,
+        "icon": "FaBuilding",
+        "features": [
+            {
+                "id": 1,
+                "description": "5 Projects",
+                "available": true
+            },
+            {
+                "id": 2,
+                "description": "20GB Storage",
+                "available": true
+            },
+            {
+                "id": 3,
+                "description": "Basic Support",
+                "available": true
+            },
+            {
+                "id": 4,
+                "description": "Email Notifications",
+                "available": true
+            },
+            {
+                "id": 5,
+                "description": "Advanced Analytics",
+                "available": true
+            },
+            {
+                "id": 6,
+                "description": "Custom Domain",
+                "available": true
+            }
+        ]
+    }
+]
