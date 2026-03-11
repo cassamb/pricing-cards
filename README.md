@@ -27,7 +27,7 @@ This is the pricing page design for a fictional subscription service based on a 
 The original implementation uses hardcoded values for the cards. In this implementation, the data is stored in the `tiers.json` file as an array of objects to mimic real world use of an API. Thus, cards and data within them can now be added and removed simply by modifying the JSON file.
 
 
-```
+```json
 {
     [
         "id": number,
