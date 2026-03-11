@@ -28,8 +28,8 @@ The original implementation uses hardcoded values for the cards. In this impleme
 
 
 ```json
-{
-    [
+]
+    {
         "id": number,
         "name": string,
         "description": string,
@@ -43,8 +43,8 @@ The original implementation uses hardcoded values for the cards. In this impleme
                 "available": boolean
             }
         ]
-    ]
-}
+    }
+]
 ```
 
 ### Card Styling
